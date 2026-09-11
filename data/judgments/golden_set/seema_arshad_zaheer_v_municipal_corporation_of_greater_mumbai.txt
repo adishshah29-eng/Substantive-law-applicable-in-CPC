@@ -1,0 +1,35 @@
+---
+case_name: "Seema Arshad Zaheer v Municipal Corporation of Greater Mumbai"
+citation: "(2006) 5 SCC 282"
+court: "supreme_court"
+year: 2006
+judges:
+  - "R.V. Raveendran J"
+source_url: "https://indiankanoon.org/doc/1093470/"
+---
+
+The appellants, occupants of structures on municipal land, sought a
+temporary injunction restraining the Municipal Corporation from
+demolishing their structures, pending disposal of their suit challenging
+the demolition notices. The trial court declined to grant an injunction;
+the question before the Supreme Court was whether that refusal was
+proper.
+
+The Supreme Court reiterated that the grant of a temporary injunction
+under Order XXXIX Rules 1 and 2 of the Code of Civil Procedure requires
+the applicant to satisfy the court on three elements -- the existence of
+a prima facie case, that the balance of convenience is in the
+applicant's favour, and that the applicant would suffer irreparable
+injury if the injunction is refused -- and that these are well-settled
+requirements, not merely factors to be weighed loosely. Applying the
+test, the Court held that persons in unauthorised occupation of public
+land cannot ordinarily establish a prima facie case for an injunction
+restraining a public authority from enforcing eviction in accordance
+with law, and that the balance of convenience in such cases favours the
+public authority's right to reclaim and use public land for public
+purposes.
+
+The judgment is frequently cited, alongside Dalpat Kumar v Prahlad Singh,
+for the settled three-fold test governing temporary injunctions, and
+specifically for its application in cases concerning unauthorised
+occupation of public land.

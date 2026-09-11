@@ -1,0 +1,35 @@
+---
+case_name: "Chinnaya v Ramayya"
+citation: "(1882) ILR 4 Mad 137"
+court: "high_court"
+year: 1882
+judges:
+  - "Innes J"
+  - "Kernan J"
+source_url: "https://indiankanoon.org/doc/1290963/"
+---
+
+An old lady gifted certain land to her daughter, subject to a direction
+in the same transaction that the daughter pay an annuity to the donor's
+sister (the plaintiff). The daughter executed a separate instrument in
+the sister's favour agreeing to pay the annuity, but later refused to
+pay, contending that the plaintiff had furnished no consideration for
+that promise and was a stranger to the consideration.
+
+The Madras High Court held that while under the Indian Contract Act,
+1872 a stranger to a contract generally cannot sue upon it, a stranger to
+the consideration may sue if she is a party to the contract itself. Here
+the gift deed and the annuity instrument formed parts of the same
+transaction, and the consideration for the daughter's promise to pay the
+annuity had in substance moved from the donor (who gave up the land on
+that condition), even though the benefit of the promise ran to the
+plaintiff. Section 2(d) of the Contract Act defines consideration
+broadly enough to permit consideration to move from a third person, so
+long as it moves at the desire of the promisor; it need not move from the
+promisee.
+
+Chinnaya v Ramayya is cited as the leading Indian authority establishing
+that, unlike the stricter English common law rule, Indian contract law
+permits consideration for a promise to be furnished by a person other
+than the promisee, provided the other requirements of a valid contract
+are satisfied.

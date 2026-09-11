@@ -1,0 +1,34 @@
+---
+case_name: "Nirmala Anand v Advent Corporation Pvt Ltd"
+citation: "(2002) 8 SCC 146"
+court: "supreme_court"
+year: 2002
+judges:
+  - "S. Rajendra Babu J"
+  - "Doraiswamy Raju J"
+source_url: "https://indiankanoon.org/doc/1888194/"
+---
+
+The purchaser sued for specific performance of an agreement to purchase a
+flat. By the time the matter reached the Supreme Court, the value of the
+property had risen very substantially since the date of the agreement.
+The defendant argued that specific performance should be refused, or
+that the plaintiff should be put to terms reflecting the increase in
+value, given the delay and price escalation.
+
+The Supreme Court held that mere escalation in the price of the subject
+property, by itself, is not a sufficient ground to deny a decree of
+specific performance to a plaintiff who has otherwise established her
+entitlement and has been ready and willing to perform. The Court
+observed that specific performance is a discretionary and equitable
+remedy, and that discretion can be exercised by granting specific
+performance while simultaneously imposing reasonable additional
+conditions on the plaintiff -- for instance, requiring payment of a
+further sum reflecting part of the escalation -- as a term of the decree,
+rather than refusing the decree outright merely because prices have
+risen.
+
+Nirmala Anand is cited for the proposition that price escalation between
+the date of agreement and the date of decree is not, without more,
+grounds to refuse specific performance; courts may instead balance equity
+by moulding the terms of the decree.

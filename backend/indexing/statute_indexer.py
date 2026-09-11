@@ -65,9 +65,20 @@ def statute_entity_matches(query: str, metadata: list[dict]) -> list[int]:
 
 
 def _chunk_metadata(chunk: SourceChunk) -> dict:
-    """Flatten a SourceChunk into a Chroma-compatible metadata dict (no Nones)."""
+    """Flatten a SourceChunk into a metadata dict (no Nones) for the BM25
+    pickle, where native Python types (e.g. the `judges` list) are fine."""
     data = chunk.model_dump(exclude={"text"})
     return {k: v for k, v in data.items() if v is not None}
+
+
+def _chroma_metadata(chunk: SourceChunk) -> dict:
+    """Like _chunk_metadata, but Chroma only accepts scalar metadata values,
+    so list fields (e.g. `judges`) are joined into a single string."""
+    data = _chunk_metadata(chunk)
+    return {
+        k: ("; ".join(v) if isinstance(v, list) else v)
+        for k, v in data.items()
+    }
 
 
 def build_bm25_index(chunks: list[SourceChunk], out_path: Path) -> None:
@@ -79,10 +90,10 @@ def build_bm25_index(chunks: list[SourceChunk], out_path: Path) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "wb") as f:
         pickle.dump({"bm25": bm25, "metadata": metadata, "texts": texts}, f)
-    print(f"BM25 statute index: {len(chunks)} chunks -> {out_path}")
+    print(f"BM25 index: {len(chunks)} chunks -> {out_path}")
 
 
-def build_chroma_index(chunks: list[SourceChunk], persist_dir: Path, collection_name: str = "statutes") -> None:
+def build_chroma_index(chunks: list[SourceChunk], persist_dir: Path, collection_name: str) -> None:
     persist_dir.mkdir(parents=True, exist_ok=True)
     client = chromadb.PersistentClient(
         path=str(persist_dir),
@@ -96,7 +107,7 @@ def build_chroma_index(chunks: list[SourceChunk], persist_dir: Path, collection_
 
     texts = [c.text for c in chunks]
     ids = [c.chunk_id for c in chunks]
-    metadatas = [_chunk_metadata(c) for c in chunks]
+    metadatas = [_chroma_metadata(c) for c in chunks]
     vectors = embed(texts)
 
     collection.add(
@@ -108,6 +119,13 @@ def build_chroma_index(chunks: list[SourceChunk], persist_dir: Path, collection_
     print(f"Chroma '{collection_name}' collection: {len(chunks)} chunks -> {persist_dir}")
 
 
+def build_indices(chunks: list[SourceChunk], indices_dir: Path, name: str) -> None:
+    """Build a BM25 pickle (data/indices/bm25_{name}.pkl) and a Chroma
+    collection named `name` (at data/indices/chroma_db/) for a set of
+    chunks. Used for both the "statutes" and "judgments" corpora."""
+    build_bm25_index(chunks, indices_dir / f"bm25_{name}.pkl")
+    build_chroma_index(chunks, indices_dir / "chroma_db", collection_name=name)
+
+
 def build_statute_indices(chunks: list[SourceChunk], indices_dir: Path) -> None:
-    build_bm25_index(chunks, indices_dir / "bm25_statutes.pkl")
-    build_chroma_index(chunks, indices_dir / "chroma_db", collection_name="statutes")
+    build_indices(chunks, indices_dir, name="statutes")

@@ -1,0 +1,37 @@
+---
+case_name: "K.S. Vidyanadam v Vairavan"
+citation: "(1997) 3 SCC 1"
+court: "supreme_court"
+year: 1997
+judges:
+  - "B.P. Jeevan Reddy J"
+  - "Suhas C. Sen J"
+source_url: "https://indiankanoon.org/doc/1230357/"
+---
+
+The plaintiffs sued for specific performance of an agreement to sell
+immovable property several years after the agreed date for completion,
+during a period of rapidly rising land prices. The agreement did not
+expressly make time of the essence, and the plaintiffs relied on the
+traditional rule that, in contracts for sale of immovable property, time
+is presumed not to be of the essence.
+
+The Supreme Court held that while the general rule that time is not of
+the essence in contracts for sale of immovable property remains good
+law, courts exercising the discretionary jurisdiction under the Specific
+Relief Act, 1963 to grant specific performance must take into account the
+realities of the situation, including inordinate, unexplained delay by
+the plaintiff and steep escalation in property prices in the interregnum.
+Such delay and its consequences are relevant circumstances going to the
+equity of granting the discretionary relief of specific performance, and
+a court may, on that basis, decline specific performance and instead
+award compensation, even though the contract does not make time strictly
+of the essence.
+
+K.S. Vidyanadam qualified the older, more mechanical application of "time
+is not of the essence" in immovable property contracts, holding that
+unexplained delay coupled with market conditions can properly weigh
+against a decree of specific performance in the court's discretion,
+though it did not disturb the basic proposition that specific performance
+of contracts for sale of immovable property was, prior to the 2018
+amendment, a discretionary and not automatic remedy.

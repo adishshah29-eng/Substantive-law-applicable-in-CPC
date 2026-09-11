@@ -1,0 +1,36 @@
+---
+case_name: "B.K. Narayana Pillai v Parameswaran Pillai"
+citation: "(2000) 1 SCC 712"
+court: "supreme_court"
+year: 1999
+judges:
+  - "M. Srinivasan J"
+  - "D.P. Wadhwa J"
+source_url: "https://indiankanoon.org/doc/1888822/"
+---
+
+The defendant in an eviction suit sought to amend the written statement
+at a relatively late stage to raise an additional plea. The amendment
+was disallowed by the courts below on the view that a written statement
+should be treated with the same strictness as a plaint when it comes to
+belated amendments.
+
+The Supreme Court held that the object of Order VI Rule 17 of the Code of
+Civil Procedure, 1908 is to allow either party to alter or amend
+pleadings in such a manner and on such terms as may be just, so that the
+real questions in controversy between the parties may be determined,
+and that courts should adopt a liberal approach to amendment applications
+unless serious injustice or irreparable prejudice is caused to the other
+side, or unless the plaintiff's valuable right (such as one accrued by
+limitation) would be affected. The Court further clarified that the
+same degree of strictness applicable to amendment of a plaint is not
+necessarily to be applied with equal rigour to amendment of a written
+statement, since a defendant is permitted a wider latitude to amend the
+defence to properly meet the plaintiff's claim, and refusing to permit a
+defendant to raise a legitimate defence merely on technical grounds
+defeats the purpose of the provision.
+
+B.K. Narayana Pillai is cited for the proposition that courts should be
+comparatively more liberal in allowing amendment of a written statement
+than of a plaint, consistent with the general policy of Order VI Rule 17
+favouring determination of the real controversy between the parties.

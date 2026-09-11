@@ -1,0 +1,37 @@
+---
+case_name: "Revajeetu Builders and Developers v Narayanaswamy and Sons"
+citation: "(2009) 10 SCC 84"
+court: "supreme_court"
+year: 2009
+judges:
+  - "Dalveer Bhandari J"
+  - "H.L. Dattu J"
+source_url: "https://indiankanoon.org/doc/1893329/"
+---
+
+The appellant sought to amend its written statement in a suit concerning
+a development agreement, and the amendment was resisted on the ground
+that it would introduce an entirely new case inconsistent with the
+original pleadings.
+
+The Supreme Court undertook a comprehensive review of the law on
+amendment of pleadings under Order VI Rule 17 of the Code of Civil
+Procedure, 1908, and laid down the basic principles to be considered
+while deciding an application for amendment: (i) whether the amendment is
+necessary for determination of the real question in controversy; (ii)
+whether the amendment merely elaborates the existing case or introduces a
+new and inconsistent cause of action, effectively substituting one cause
+of action for another or changing the fundamental nature of the suit; (iii)
+whether the amendment causes prejudice to the other side that cannot be
+compensated by costs; (iv) whether refusing the amendment would result in
+a multiplicity of proceedings; and (v) whether the application is made
+mala fide, or the delay in seeking the amendment is inordinate and
+unexplained. The Court held that all amendments cannot be allowed as a
+matter of course: the discretion conferred on the court by Order VI Rule
+17 is circumscribed by these tests, and the proposed amendment should not
+alter or substitute the cause of action originally pleaded, nor change
+the fundamental nature and character of the suit or defence.
+
+Revajeetu Builders is the leading modern authority collecting and
+systematising the factors a court must weigh in deciding whether to
+permit an amendment of pleadings under Order VI Rule 17 CPC.

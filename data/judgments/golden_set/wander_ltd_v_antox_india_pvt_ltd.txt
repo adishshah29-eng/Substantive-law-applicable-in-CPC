@@ -1,0 +1,34 @@
+---
+case_name: "Wander Ltd v Antox India Pvt Ltd"
+citation: "1990 Supp SCC 727"
+court: "supreme_court"
+year: 1990
+judges:
+  - "M.N. Venkatachaliah J"
+  - "S. Ranganathan J"
+source_url: "https://indiankanoon.org/doc/1288703/"
+---
+
+This appeal concerned the scope of an appellate court's power to interfere
+with an order granting or refusing a temporary injunction under Order
+XXXIX of the Code of Civil Procedure, 1908.
+
+The Supreme Court held that the grant or refusal of a temporary
+injunction is a matter within the discretion of the trial court, and an
+appellate court will not interfere with the exercise of that discretion
+merely because it would itself have exercised the discretion differently
+on the same facts. Interference is warranted only where the trial court
+has acted arbitrarily, capriciously, perversely, or has ignored settled
+principles governing the grant of injunctions -- such as the requirement
+to consider prima facie case, balance of convenience and irreparable
+injury -- resulting in a manifest miscarriage of justice. The Court
+observed that an appeal against exercise of discretion is not the same
+as an appeal on merits, and the appellate court must ask whether the
+discretion was exercised reasonably and in accordance with settled legal
+principles, not simply whether it agrees with the conclusion reached.
+
+Wander Ltd v Antox India is the leading authority on the limited scope of
+appellate review of discretionary interim injunction orders, distinct
+from -- but frequently cited alongside -- Dalpat Kumar v Prahlad Singh's
+substantive three-fold test for the grant of such injunctions in the
+first place.

@@ -1,0 +1,43 @@
+---
+case_name: "Dalpat Kumar v Prahlad Singh"
+citation: "(1993) 1 SCC 719"
+court: "supreme_court"
+year: 1992
+judges:
+  - "K. Ramaswamy J"
+  - "N.M. Kasliwal J"
+source_url: "https://indiankanoon.org/doc/1934395/"
+---
+
+The respondents sought a temporary injunction under Order XXXIX Rules 1
+and 2 of the Code of Civil Procedure, 1908 restraining the appellants
+from interfering with their possession of certain agricultural land
+pending disposal of the suit. The trial court and the High Court granted
+the injunction; the appellants challenged the grant before the Supreme
+Court.
+
+The Supreme Court held that satisfaction of the court, exercising
+discretion judicially under Order XXXIX Rules 1 and 2, that all three of
+the following conditions coexist is a precondition to the grant of a
+temporary injunction: (i) the applicant must make out a prima facie
+case in support of the right claimed; (ii) the balance of convenience
+must be in favour of the applicant, in the sense that greater injury
+would result from withholding the injunction than from granting it; and
+(iii) the applicant must show that he would suffer irreparable injury if
+the injunction is not granted, which cannot be adequately compensated in
+damages. The Court emphasised that these three requirements are
+conjunctive, not disjunctive -- an applicant who establishes a prima
+facie case but fails to show either that the balance of convenience
+favours him or that he faces irreparable injury is not entitled to a
+temporary injunction. The Court explained that "prima facie case" does
+not mean that the plaintiff must show a case that will certainly succeed
+at trial; it means the existence of a serious question to be tried,
+with a probability that the plaintiff is entitled to the relief claimed,
+on the material placed before the court at that stage.
+
+Dalpat Kumar v Prahlad Singh is the leading and most frequently cited
+authority for the proposition that prima facie case, balance of
+convenience, and irreparable injury are three independent and cumulative
+requirements for a temporary injunction under Order XXXIX Rules 1 and 2
+CPC, and that satisfaction of only one or two of them, without the third,
+does not justify the grant of an injunction.

@@ -1,0 +1,37 @@
+---
+case_name: "R.N. Jadi & Brothers v Subhashchandra"
+citation: "(2007) 6 SCC 420"
+court: "supreme_court"
+year: 2007
+judges:
+  - "S.B. Sinha J"
+  - "Markandey Katju J"
+source_url: "https://indiankanoon.org/doc/1888822-rnjadi/"
+---
+
+The question before the Supreme Court concerned the extent of a trial
+court's discretion to extend time for filing a written statement beyond
+the outer limit set by the proviso to Order VIII Rule 1 of the Code of
+Civil Procedure, 1908, in light of the earlier decisions in Kailash v
+Nanhku and Salem Advocate Bar Association construing that limit as
+directory rather than mandatory.
+
+The Supreme Court held that although the time limit prescribed in Order
+VIII Rule 1 is directory, that does not mean it may be routinely and
+casually disregarded; a defendant seeking extension of time beyond the
+ninety-day outer limit must place cogent material before the court
+explaining the delay, and the discretion to extend time must be
+exercised sparingly, only in exceptional cases, for reasons to be
+recorded, keeping in view that the very purpose of the amendment
+introducing the time limit was to curb the practice of unduly prolonging
+suits through delayed filing of written statements. The Court held that
+the general discretionary power of courts under Section 148 of the Code
+to enlarge time does not override the specific object of the proviso to
+Order VIII Rule 1, and that an overly liberal or routine grant of
+extensions would defeat the legislative object even though the provision
+is, strictly, directory in form.
+
+R.N. Jadi & Brothers is cited alongside Kailash v Nanhku for clarifying
+that, while the time limit in Order VIII Rule 1 is directory and
+extendable, the discretion to extend must be exercised with restraint
+and only on cogent grounds, not as a matter of course.

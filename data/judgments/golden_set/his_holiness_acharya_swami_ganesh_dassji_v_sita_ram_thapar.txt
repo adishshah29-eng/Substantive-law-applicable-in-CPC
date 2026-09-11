@@ -1,0 +1,38 @@
+---
+case_name: "His Holiness Acharya Swami Ganesh Dassji v Sita Ram Thapar"
+citation: "(1996) 4 SCC 526"
+court: "supreme_court"
+year: 1996
+judges:
+  - "K. Ramaswamy J"
+  - "G.B. Pattanaik J"
+source_url: "https://indiankanoon.org/doc/1552811/"
+---
+
+The plaintiff sought specific performance of an agreement for sale. The
+trial court and first appellate court dismissed the suit on the ground
+that the plaintiff had failed to plead and prove that he was, at all
+material times, ready and willing to perform his part of the contract as
+required under Section 16(c) of the Specific Relief Act, 1963 (as it then
+stood).
+
+The Supreme Court held that readiness and willingness to perform the
+contract is a condition precedent, mandatory in nature, for obtaining a
+decree of specific performance, and that it is not sufficient for the
+plaintiff to merely aver readiness and willingness in the plaint; it must
+be proved by the evidence on record, having regard to the plaintiff's
+conduct before and after filing the suit read as a whole. Whether the
+plaintiff was ready and willing is a question to be decided on the facts
+and circumstances of each case, and continuous readiness and willingness
+must be shown from the date of the agreement until the date of the
+hearing.
+
+The Court set aside the concurrent findings of the courts below on the
+facts of that case, holding that the record did in fact establish the
+requisite readiness and willingness, and decreed specific performance.
+
+This case is a leading authority on Section 16 of the Specific Relief
+Act, establishing that a plaintiff seeking specific performance must
+both plead and affirmatively prove continuous readiness and willingness
+to perform his own obligations under the contract; failure to do so is
+fatal to the suit.

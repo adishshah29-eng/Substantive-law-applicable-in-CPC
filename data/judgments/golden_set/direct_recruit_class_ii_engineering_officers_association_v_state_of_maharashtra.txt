@@ -1,0 +1,37 @@
+---
+case_name: "Direct Recruit Class II Engineering Officers' Association v State of Maharashtra"
+citation: "(1990) 2 SCC 715"
+court: "supreme_court"
+year: 1990
+judges:
+  - "B.C. Ray J"
+  - "K.N. Saikia J"
+  - "S. Ranganathan J"
+source_url: "https://indiankanoon.org/doc/1888822-drceo/"
+---
+
+In service litigation concerning seniority between direct recruits and
+promotees, a batch of writ petitions raised a question of seniority
+principles that some affected employees, though aware of the litigation
+and its potential effect on them, chose not to join. Years later, they
+sought to reopen the same question in fresh proceedings.
+
+The Supreme Court, in laying down comprehensive principles governing
+seniority disputes, also addressed the doctrine of constructive res
+judicata, holding that a person who had knowledge of an earlier
+proceeding raising a particular question and an opportunity to be
+impleaded and contest it, but who deliberately or negligently omitted to
+do so, cannot ordinarily be permitted to reopen the same question in
+subsequent litigation; the principle underlying Section 11 of the Code
+of Civil Procedure, 1908 -- and in particular Explanation IV, under
+which a matter that might and ought to have been raised in the former
+proceeding, but was not, is deemed to have been directly and
+substantially in issue in that proceeding -- extends by analogy to bar
+such belated re-litigation, in service and writ jurisdiction matters as
+well as in ordinary civil suits.
+
+This case is cited for applying the doctrine of constructive res judicata
+-- rooted in Explanation IV to Section 11 CPC -- outside the strict
+confines of a civil suit, to service jurisprudence and writ litigation,
+where a party who had a fair opportunity to raise a plea in earlier
+proceedings will be barred from raising it later.

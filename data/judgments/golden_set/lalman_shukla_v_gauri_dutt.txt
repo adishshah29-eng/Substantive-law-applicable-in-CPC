@@ -1,0 +1,32 @@
+---
+case_name: "Lalman Shukla v Gauri Dutt"
+citation: "(1913) 11 ALJ 489"
+court: "high_court"
+year: 1913
+judges:
+  - "Banerji J"
+source_url: "https://indiankanoon.org/doc/1234069/"
+---
+
+The defendant's nephew ran away from home. The defendant sent several of
+his servants, including the plaintiff Lalman Shukla, to search for the
+boy, and separately announced a reward of Rs. 501 to anyone who found
+him, by way of handbills distributed after the plaintiff had already
+left in search. The plaintiff found the boy without knowledge of the
+reward offer and later sued for the reward on his return.
+
+The Allahabad High Court held that the plaintiff's claim must fail. To
+convert a proposal into a promise under the Indian Contract Act, 1872,
+acceptance of the proposal must be communicated to the offeree and the
+offeree must act with knowledge of the offer. Since the plaintiff was
+ignorant of the reward offer at the time he found and brought back the
+boy, there could be no consensus ad idem, and therefore no contract came
+into existence merely because his act happened to coincide with what the
+offer required. An offer of which a person has no knowledge at the time
+of performance cannot be regarded as accepted by that performance.
+
+This decision is the leading Indian authority for the rule that a valid
+acceptance -- and hence a valid contract by conduct -- requires the
+offeree's knowledge of the offer at the time of the act said to
+constitute acceptance; a person cannot accept what he does not know
+exists.

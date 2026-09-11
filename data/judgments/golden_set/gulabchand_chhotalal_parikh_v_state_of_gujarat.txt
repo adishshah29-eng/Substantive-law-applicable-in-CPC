@@ -1,0 +1,37 @@
+---
+case_name: "Gulabchand Chhotalal Parikh v State of Gujarat"
+citation: "AIR 1965 SC 1153"
+court: "supreme_court"
+year: 1965
+judges:
+  - "P.B. Gajendragadkar CJ"
+  - "K.N. Wanchoo J"
+  - "M. Hidayatullah J"
+source_url: "https://indiankanoon.org/doc/1888822-gcp/"
+---
+
+The petitioner, having earlier filed and lost a writ petition under
+Article 226 of the Constitution challenging an executive order on
+certain grounds, later instituted a civil suit raising substantially the
+same questions against the same parties. The question was whether the
+dismissal of the writ petition barred the subsequent civil suit by res
+judicata.
+
+The Supreme Court held that the general principle of res judicata,
+embodied in Section 11 of the Code of Civil Procedure, 1908 but not
+exhausted by it, is a rule of public policy founded on the need for
+finality in litigation and applies as between a former writ petition
+decided on merits under Article 226 and a later regular suit raising the
+same matter in issue between the same parties, notwithstanding that
+Section 11 in terms refers only to a former "suit." The Court held that
+if the earlier writ petition was disposed of on merits -- as opposed to
+being dismissed on a technical ground, such as availability of an
+alternative remedy, without going into the merits -- the decision would
+operate as res judicata (or on the general principle analogous to it) in
+the later suit.
+
+Gulabchand Chhotalal Parikh is a leading authority extending the
+substance of the rule of res judicata to bar a subsequent civil suit
+where the same matter was already decided on merits in an earlier writ
+petition between the same parties, even though Section 11 CPC does not,
+by its literal terms, refer to writ proceedings.

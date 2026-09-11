@@ -1,0 +1,49 @@
+---
+case_name: "Mohori Bibee v Dharmodas Ghose"
+citation: "(1903) 30 IA 114"
+court: "other"
+year: 1903
+judges:
+  - "Lord Macnaghten"
+  - "Lord Davey"
+  - "Lord Lindley"
+  - "Sir Ford North"
+  - "Sir Andrew Scoble"
+  - "Sir Andrew Wilson"
+source_url: "https://indiankanoon.org/doc/1955809/"
+---
+
+This appeal from the Calcutta High Court arose out of a mortgage executed by
+the respondent, Dharmodas Ghose, in favour of Brahmo Dutt, a moneylender,
+while the respondent was still a minor. The mortgagee's attorney had
+actual knowledge of the respondent's minority at the time the deed was
+executed. The respondent, through his mother as guardian, sued to have
+the mortgage declared void.
+
+The Judicial Committee of the Privy Council held that under Section 11 of
+the Indian Contract Act, 1872, a person is competent to contract only if
+he has attained the age of majority; consequently an agreement entered
+into by a minor is not merely voidable but void ab initio. The Board
+rejected the argument that Section 10 and Section 11, read together,
+merely rendered such a contract voidable at the minor's option. Their
+Lordships observed that the Contract Act makes it essential that all
+contracting parties should be competent to contract, and a minor is not
+competent; the case is not therefore a case of a contract voidable at the
+option of the minor, but of one in which there never was, and could not
+be, any contract at all.
+
+The Board further held that since there was no contract in the eye of
+law, the provisions of Sections 64 and 65 of the Contract Act -- which
+deal with the consequences of rescission or discovery that an agreement
+is void, as between competent parties -- had no application to a case
+where one party was always incompetent to contract. The minor could
+therefore not be compelled to repay the money advanced to him under the
+void mortgage, notwithstanding that the mortgagee had acted in good faith
+and without notice at the inception of the transaction (a point on which
+the record in fact showed the mortgagee's agent had notice of the
+minority).
+
+This case remains the foundational authority in Indian law for the
+proposition that agreements with minors are void, not merely voidable,
+and that the ordinary doctrine of restitution does not operate to revive
+an obligation that never had legal existence.

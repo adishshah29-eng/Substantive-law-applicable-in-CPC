@@ -1,0 +1,39 @@
+---
+case_name: "Rajesh Kumar Aggarwal v K.K. Modi"
+citation: "(2006) 4 SCC 385"
+court: "supreme_court"
+year: 2006
+judges:
+  - "S.B. Sinha J"
+  - "Markandey Katju J"
+source_url: "https://indiankanoon.org/doc/1600644/"
+---
+
+Beneficiaries of an employees' welfare trust sought to amend their
+pleadings in a suit against the trustees concerning mismanagement of
+trust assets. The trial court refused the amendment; the High Court
+allowed it; the trustees appealed to the Supreme Court.
+
+The Supreme Court held that Order VI Rule 17 of the Code of Civil
+Procedure, 1908 comprises two distinct parts: the first part, which
+confers a general discretion on the court to allow either party to
+alter or amend its pleadings at any stage of the proceedings, is
+discretionary; the second part, which requires that all amendments
+"necessary for the purpose of determining the real questions in
+controversy between the parties" shall be allowed, is not discretionary
+but obligatory -- courts are enjoined to allow such amendments, and
+refusal is permissible only where the amendment would work serious
+injustice or irremediable prejudice to the other side, or introduce a
+totally different, new and inconsistent case, or that the effect of the
+amendment would be to take away from the other side a legal right which
+had accrued in its favour, such as a bar of limitation. Applying this
+test, the Court held that the proposed amendment merely clarified and
+elaborated the existing claim concerning mismanagement of trust
+property, and did not introduce an inconsistent new cause of action, and
+accordingly upheld its allowance.
+
+Rajesh Kumar Aggarwal v K.K. Modi is a leading authority for the
+distinction between the discretionary and mandatory limbs of Order VI
+Rule 17 CPC, and for the liberal approach courts must take toward
+amendments that are genuinely necessary to determine the real
+controversy between the parties.

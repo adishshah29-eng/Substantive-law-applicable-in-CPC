@@ -1,0 +1,43 @@
+---
+case_name: "Kailash v Nanhku"
+citation: "(2005) 4 SCC 480"
+court: "supreme_court"
+year: 2005
+judges:
+  - "R.C. Lahoti CJ"
+  - "D.M. Dharmadhikari J"
+  - "P.K. Balasubramanyan J"
+source_url: "https://indiankanoon.org/doc/877414/"
+---
+
+In an election petition, the returned candidate's written statement was
+filed beyond the ninety-day outer limit prescribed by the proviso to
+Order VIII Rule 1 of the Code of Civil Procedure, 1908, as it then stood
+following the 1999/2002 amendments. The question was whether the proviso
+was mandatory, so that a written statement filed even one day beyond
+ninety days from service of summons must be rejected and the defendant
+treated as if no defence had been filed at all.
+
+The Supreme Court held that the provisions of Order VIII Rule 1,
+prescribing the period within which the written statement must be
+presented, are a part of the procedural law and are, therefore, ordinarily
+directory and not mandatory, notwithstanding that the language of the
+proviso appears imperative. The Court held that procedural law is meant
+to subserve and facilitate the cause of justice and not to govern or
+obstruct it, and that a provision of this kind, though couched in
+mandatory-sounding language, should be construed as directory unless a
+contrary legislative intention is clearly discernible, particularly
+where a rigid, mandatory construction would result in grave injustice to
+a party without correspondingly serving the object of the provision.
+Accordingly, the Court held that a court retains the discretion, in
+appropriate cases and for sufficient cause shown, to extend the time for
+filing a written statement even beyond the ninety-day outer limit fixed
+by the proviso to Order VIII Rule 1, though ordinarily such extension
+beyond ninety days should be granted only in exceptional circumstances,
+for detailed and cogent reasons, and not as a matter of course.
+
+Kailash v Nanhku is the leading authority establishing that the
+ninety-day time limit in the proviso to Order VIII Rule 1 CPC is
+directory rather than an absolute, non-extendable mandatory bar, though
+courts must exercise the power to extend sparingly and for compelling
+reasons.

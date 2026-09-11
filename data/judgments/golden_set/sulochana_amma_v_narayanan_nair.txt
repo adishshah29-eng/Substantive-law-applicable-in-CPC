@@ -1,0 +1,41 @@
+---
+case_name: "Sulochana Amma v Narayanan Nair"
+citation: "(1994) 2 SCC 14"
+court: "supreme_court"
+year: 1993
+judges:
+  - "K. Ramaswamy J"
+  - "N.P. Singh J"
+source_url: "https://indiankanoon.org/doc/1047975/"
+---
+
+The question before the Supreme Court was whether a finding recorded by a
+court of limited pecuniary jurisdiction on an issue directly and
+substantially in issue between the parties would operate as res judicata
+in a later suit between the same parties concerning a claim of higher
+value, triable only by a court of unlimited jurisdiction. High Courts had
+taken conflicting views on the interpretation of Explanation VIII to
+Section 11 of the Code of Civil Procedure, 1908 (inserted by the Code of
+Civil Procedure (Amendment) Act, 1976), which provides that a court of
+limited jurisdiction competent to decide a matter shall be deemed a court
+of competent jurisdiction for the purposes of Section 11, notwithstanding
+that it was not competent to try the later suit.
+
+The Supreme Court held that Explanation VIII was inserted precisely to
+remove the earlier anomaly whereby a decision of a court of limited
+pecuniary jurisdiction on an issue was held not to bind the parties in a
+later suit triable by a court of unlimited jurisdiction, permitting
+wasteful re-litigation of the same issue. The Court held that once an
+issue has been directly and substantially in issue in a former suit
+between the same parties, and has been heard and finally decided by a
+court competent to decide that suit -- even if that court's general
+pecuniary jurisdiction is limited -- Explanation VIII operates to make
+that finding binding as res judicata in the later suit, regardless of
+the forum's limited jurisdiction, so long as the issue itself was validly
+decided.
+
+Sulochana Amma is the leading authority resolving the conflict on
+Explanation VIII to Section 11 CPC, holding that findings of courts of
+limited pecuniary jurisdiction operate as res judicata in later suits of
+higher valuation, so as to give true effect to the finality intended by
+the doctrine.

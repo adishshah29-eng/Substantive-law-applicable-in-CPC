@@ -1,0 +1,44 @@
+---
+case_name: "Satyabrata Ghose v Mugneeram Bangur & Co"
+citation: "AIR 1954 SC 44"
+court: "supreme_court"
+year: 1954
+judges:
+  - "B.K. Mukherjea J"
+  - "Vivian Bose J"
+  - "Ghulam Hasan J"
+source_url: "https://indiankanoon.org/doc/609941/"
+---
+
+The defendant company agreed to sell plots of land to the plaintiff's
+predecessor, undertaking to develop roads and drains and complete the
+work within a reasonable time, with completion of the sale conditional
+on that development. A portion of the land was requisitioned by the
+Government for military purposes during the Second World War, which the
+defendant claimed rendered the contract impossible of performance and
+frustrated under Section 56 of the Indian Contract Act, 1872.
+
+The Supreme Court held that the doctrine of frustration in Indian law is
+not a branch of the English common law doctrine of frustration but is
+covered directly by the express terms of Section 56, which states that a
+contract to do an act that, after the contract is made, becomes
+impossible, or, by reason of some event the promisor could not prevent,
+unlawful, becomes void. The word "impossible" in Section 56 is not used
+in the strict physical sense; it includes impracticability and useless
+performance from the point of view of the object and purpose the parties
+had in mind. However, mere temporary delay or hardship in performance,
+falling short of the venture becoming impracticable or the object
+frustrated, does not attract Section 56.
+
+On the facts, the Court held that the requisition was of a temporary
+character and did not go to the root of the contract; the purpose of the
+contract -- development and eventual sale of the plots -- had not become
+impossible or radically different, merely delayed. The contract therefore
+was not frustrated and the buyer's suit for specific performance and
+possession was not barred.
+
+Satyabrata Ghose is the leading authority establishing that Section 56 of
+the Contract Act is a complete and self-contained code for supervening
+impossibility in India, and that impossibility under that section extends
+to impracticability of the very foundation of the contract, not merely
+literal physical impossibility.

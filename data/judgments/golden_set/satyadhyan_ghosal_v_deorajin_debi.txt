@@ -1,0 +1,38 @@
+---
+case_name: "Satyadhyan Ghosal v Deorajin Debi"
+citation: "AIR 1960 SC 941"
+court: "supreme_court"
+year: 1960
+judges:
+  - "B.P. Sinha CJ"
+  - "P.B. Gajendragadkar J"
+  - "K.N. Wanchoo J"
+source_url: "https://indiankanoon.org/doc/655045/"
+---
+
+In a suit for ejectment, an earlier interlocutory order on the question of
+whether the defendant was a tenant protected under rent control
+legislation had attained finality, no appeal having been filed against
+it. At a later stage of the same suit, the same question was sought to
+be re-agitated.
+
+The Supreme Court held that the principle of res judicata, though
+statutorily embodied in Section 11 of the Code of Civil Procedure, 1908
+in terms confined to a subsequent "suit," rests on a wider foundation:
+the need to give finality to judicial decisions so that parties are not
+vexed twice over the same matter, and so that the machinery of the
+courts is not used to permit endless re-litigation of issues already
+decided between the same parties. The Court held that the general
+principle of res judicata applies as between two stages of the same
+litigation, so that if an order made in the course of a suit -- whether
+interlocutory or otherwise -- decides a matter in controversy and that
+order is not appealed from, or is upheld on appeal, that decision is
+final between the parties for all subsequent stages of the same
+proceeding, and cannot be reopened at a later stage of the same suit,
+even though Section 11 itself, by its terms, speaks only of a former
+"suit" and not of an earlier stage of the same suit.
+
+Satyadhyan Ghosal is the leading authority for the proposition that the
+underlying rule of res judicata is not exhausted by Section 11 CPC and
+extends, on general principle, to bar re-agitation of matters already
+finally decided at an earlier stage of the very same suit.

@@ -1,0 +1,37 @@
+---
+case_name: "Sheodan Singh v Daryao Kunwar"
+citation: "AIR 1966 SC 1332"
+court: "supreme_court"
+year: 1966
+judges:
+  - "Raghubar Dayal J"
+  - "J.R. Mudholkar J"
+  - "V. Ramaswami J"
+source_url: "https://indiankanoon.org/doc/1888822-sds/"
+---
+
+Two connected suits between the same parties, raising overlapping
+questions of title, were dismissed by the trial court and one was
+appealed while the other was allowed to remain undisturbed and become
+final. The question was whether the decision that had become final in
+the suit not appealed operated as res judicata in the appeal from the
+other suit.
+
+The Supreme Court held that for a decision in a former suit to operate
+as res judicata under Section 11 of the Code of Civil Procedure, 1908,
+what matters is that the matter was directly and substantially in issue
+and was heard and finally decided, not merely the label of "suit" versus
+"appeal": a decision on merits that has become final, whether because no
+appeal was filed against it or because an appeal was disposed of on
+merits, has the same res judicata effect as a decree in a fully
+contested former suit. The Court further clarified that where an appeal
+is dismissed on a purely technical ground -- without a decision on
+merits -- the underlying trial court decision does not thereby acquire
+the same conclusive effect as a decision that was actually heard and
+finally decided on merits by the appellate forum.
+
+Sheodan Singh is cited for clarifying that the essential requirement for
+res judicata under Section 11 CPC is a final decision on merits between
+the same parties on the matter in issue, and that this requirement is
+unaffected by whether finality was reached by a decree standing
+unappealed or by an appellate decision on the merits.

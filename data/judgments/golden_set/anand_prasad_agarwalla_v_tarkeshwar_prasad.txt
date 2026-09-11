@@ -1,0 +1,35 @@
+---
+case_name: "Anand Prasad Agarwalla v Tarkeshwar Prasad"
+citation: "(2001) 5 SCC 568"
+court: "supreme_court"
+year: 2001
+judges:
+  - "D.P. Mohapatra J"
+  - "K.G. Balakrishnan J"
+source_url: "https://indiankanoon.org/doc/1888913/"
+---
+
+The plaintiff, claiming to be a co-sharer in joint family property,
+sought a temporary injunction under Order XXXIX Rules 1 and 2 CPC
+restraining the defendants from raising construction on the disputed
+land pending adjudication of title and partition in the suit.
+
+The Supreme Court reiterated that the three well-settled conditions for
+the grant of a temporary injunction -- a prima facie case, balance of
+convenience in favour of the applicant, and the likelihood of
+irreparable injury if the injunction is refused -- must all be
+established, and additionally emphasised that in property disputes
+involving construction on disputed land, courts should be circumspect
+about permitting construction to proceed during the pendency of the
+suit, since allowing construction to continue may itself alter the
+balance of convenience and cause injury incapable of being undone once
+the suit is decided. The Court held that where construction on disputed
+land threatens to change the nature of the property and create a fait
+accompli before the suit is decided, that is itself a strong factor
+going to irreparable injury and balance of convenience in favour of
+maintaining the status quo through injunction pending trial.
+
+Anand Prasad Agarwalla is cited as authority for the application of the
+Dalpat Kumar three-fold test specifically to injunctions restraining
+construction on suit property pending trial, where preserving the status
+quo is necessary to avoid the dispute being rendered infructuous.

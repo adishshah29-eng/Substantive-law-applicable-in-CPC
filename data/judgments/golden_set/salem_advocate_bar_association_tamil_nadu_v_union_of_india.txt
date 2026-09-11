@@ -1,0 +1,39 @@
+---
+case_name: "Salem Advocate Bar Association, Tamil Nadu v Union of India"
+citation: "(2005) 6 SCC 344"
+court: "supreme_court"
+year: 2005
+judges:
+  - "Y.K. Sabharwal J"
+  - "D.M. Dharmadhikari J"
+  - "Tarun Chatterjee J"
+source_url: "https://indiankanoon.org/doc/1888822-salem2/"
+---
+
+Following the sweeping amendments made to the Code of Civil Procedure,
+1908 by the Amendment Acts of 1999 and 2002 -- including the insertion of
+a time limit for filing the written statement under Order VIII Rule 1,
+restrictions on the number of adjournments, and mandatory reference to
+alternative dispute resolution under Section 89 -- their constitutional
+validity was challenged before the Supreme Court, and a committee was
+constituted to examine practical difficulties in implementation.
+
+This second Salem Advocate Bar Association judgment, considering the
+committee's report, upheld the constitutional validity of the amendments,
+including the time limit for filing a written statement under Order VIII
+Rule 1. However, consistently with the object of the amendments being to
+expedite civil litigation without causing injustice, the Court clarified
+that the time limits introduced by the 1999/2002 amendments -- including
+the ninety-day outer limit for filing the written statement -- are to be
+understood as ordinarily directory, giving courts residual discretion to
+extend time in a given case for good and sufficient reasons, rather than
+as rigid, inflexible bars whose breach automatically forecloses a
+defendant's right to be heard, so as to avoid the amendments themselves
+becoming an instrument of injustice.
+
+Salem Advocate Bar Association (II) is the leading authority upholding
+the 1999/2002 CPC amendments as constitutionally valid, while
+construing the time limits they introduced, including that in Order
+VIII Rule 1, as directory safeguards for expeditious disposal rather than
+mandatory, non-extendable bars -- a construction subsequently applied and
+elaborated in Kailash v Nanhku.

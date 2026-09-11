@@ -1,0 +1,35 @@
+---
+case_name: "Saradamani Kandappan v S. Rajalakshmi"
+citation: "(2011) 12 SCC 18"
+court: "supreme_court"
+year: 2011
+judges:
+  - "R.V. Raveendran J"
+  - "A.K. Patnaik J"
+source_url: "https://indiankanoon.org/doc/1440711/"
+---
+
+The plaintiffs sought specific performance of an agreement of sale where
+they had defaulted in paying successive instalments on the stipulated
+dates, and sought to pay the balance and complete the sale several years
+later, relying on the settled position that time is not of the essence
+in contracts for sale of immovable property.
+
+The Supreme Court, while not overruling the general rule, held that the
+rule evolved in a very different social and economic context and that
+changed circumstances -- in particular, the phenomenon of rapid and
+continuous escalation in the price of immovable property -- require
+courts to be more cautious in granting specific performance to a
+plaintiff who has been consistently and repeatedly in default of the
+payment schedule fixed by the contract. The Court signalled that the
+traditional rule may need reconsideration and, in appropriate cases with
+prolonged, unexplained default, discretionary specific performance may
+properly be refused in favour of a compensation-based remedy, particularly
+where the vendor stands to be prejudiced by continuing price rise
+attributable to the purchaser's default.
+
+Saradamani Kandappan is read alongside K.S. Vidyanadam as tempering the
+older, more categorical application of the "time not of the essence"
+principle in immovable property contracts, in light of realistic
+economic conditions, in the exercise of the (then still discretionary)
+jurisdiction to grant specific performance.

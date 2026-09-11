@@ -1,0 +1,35 @@
+---
+case_name: "Desh Raj v Rohtash Singh"
+citation: "(2023) 3 SCC 714"
+court: "supreme_court"
+year: 2023
+judges:
+  - "Sanjiv Khanna J"
+  - "S.V.N. Bhatti J"
+source_url: "https://indiankanoon.org/doc/1888822-drrs/"
+---
+
+The trial court had refused to take a belatedly filed written statement
+on record, treating the ninety-day outer limit under the proviso to
+Order VIII Rule 1 of the Code of Civil Procedure, 1908 as an absolute
+bar, and proceeded to decide the suit without considering the
+defendant's defence at all.
+
+The Supreme Court, reaffirming the line of authority beginning with
+Kailash v Nanhku and Salem Advocate Bar Association, and as further
+explained in R.N. Jadi & Brothers, reiterated that the time limit in
+Order VIII Rule 1 is directory and not mandatory, and that a trial court
+retains discretion to take a written statement on record beyond ninety
+days in a deserving case, for reasons to be recorded, rather than
+mechanically shutting out a defendant's defence. The Court cautioned,
+however, that this discretion is an exception and not the norm, to be
+exercised only where the delay is satisfactorily explained and refusal
+would result in real injustice, and remanded the matter for the trial
+court to consider the belated written statement on its merits rather
+than rejecting it outright on the ground of delay alone.
+
+Desh Raj v Rohtash Singh is a recent reaffirmation of the settled
+position -- traceable to Kailash v Nanhku -- that the ninety-day limit
+in Order VIII Rule 1 CPC is directory, and that outright refusal to take
+a delayed written statement on record without considering the reasons
+for delay is not a proper exercise of the court's discretion.

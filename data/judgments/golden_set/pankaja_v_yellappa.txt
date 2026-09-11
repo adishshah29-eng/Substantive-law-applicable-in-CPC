@@ -1,0 +1,36 @@
+---
+case_name: "Pankaja v Yellappa"
+citation: "(2004) 6 SCC 415"
+court: "supreme_court"
+year: 2004
+judges:
+  - "N. Santosh Hegde J"
+  - "S.B. Sinha J"
+source_url: "https://indiankanoon.org/doc/1888822-pankaja/"
+---
+
+An application to amend the plaint in a partition suit, seeking to add a
+prayer for possession consequential upon the declaration of title already
+claimed, was rejected by the trial court and the High Court on the view
+that it introduced a new relief at a late stage.
+
+The Supreme Court reiterated the settled principles governing amendment
+of pleadings under Order VI Rule 17 of the Code of Civil Procedure, 1908:
+courts should allow amendments that are necessary for determining the
+real controversy between the parties, and should refuse amendments only
+where they change the fundamental character of the suit, cause serious
+prejudice that cannot be undone by an award of costs, or seek to
+withdraw an admission or take away a right that has accrued to the other
+side by lapse of time. The Court held that seeking a consequential relief
+of possession, flowing naturally from a declaration of title already in
+issue in the suit, does not alter the fundamental nature of the suit and
+ought ordinarily to be allowed, since disallowing it would only lead to a
+fresh suit for possession and consequent multiplicity of proceedings --
+precisely what Order VI Rule 17 and the liberal approach to amendment
+are intended to avoid.
+
+Pankaja v Yellappa is cited for the principle that amendments seeking
+relief consequential upon, and arising naturally out of, the existing
+pleadings should ordinarily be permitted to avoid multiplicity of
+litigation, applying the broader test laid down for Order VI Rule 17
+CPC.

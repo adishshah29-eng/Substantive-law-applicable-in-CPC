@@ -1,0 +1,37 @@
+---
+case_name: "South Konkan Distilleries v Prabhakar Gajanan Naik"
+citation: "(2008) 14 SCC 632"
+court: "supreme_court"
+year: 2008
+judges:
+  - "Tarun Chatterjee J"
+  - "Harjit Singh Bedi J"
+source_url: "https://indiankanoon.org/doc/1888822-skd/"
+---
+
+An application for amendment of the plaint was made after the
+commencement of trial, and was resisted on the ground that the proviso to
+Order VI Rule 17 of the Code of Civil Procedure, 1908 -- inserted by the
+Code of Civil Procedure (Amendment) Act, 2002 -- barred any amendment
+sought after commencement of trial.
+
+The Supreme Court held that the proviso to Order VI Rule 17, which
+prohibits amendment after the trial has commenced "unless the Court
+comes to the conclusion that in spite of due diligence, the party could
+not have raised the matter before the commencement of trial," was
+inserted to curtail the practice of seeking amendments belatedly to
+delay proceedings, and courts must exercise caution before allowing
+amendments at that late stage. However, the discretion under the proviso
+is not to be exercised so strictly as to defeat amendments that are
+genuinely necessary to decide the real controversy between the parties;
+where the party seeking amendment can show that, despite due diligence,
+the matter could not have been raised earlier -- for instance, because
+the necessity for it arose only from a subsequent development or from
+material that came to light after the trial had commenced -- the
+proviso's bar does not apply and the amendment may still be allowed.
+
+South Konkan Distilleries clarifies the practical operation of the 2002
+proviso to Order VI Rule 17: post-trial amendments are permissible only
+on proof of due diligence and an inability to have raised the matter
+earlier, marking a deliberately stricter standard than for pre-trial
+amendments, which continue to be viewed liberally.

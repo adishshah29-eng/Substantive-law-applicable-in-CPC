@@ -1,0 +1,36 @@
+---
+case_name: "Katta Sujatha Reddy v Siddamsetty Infra Projects Pvt Ltd"
+citation: "(2023) 1 SCC 355"
+court: "supreme_court"
+year: 2022
+judges:
+  - "Sanjay Kishan Kaul J"
+  - "M.M. Sundresh J"
+source_url: "https://indiankanoon.org/doc/106508049/"
+---
+
+This appeal required the Supreme Court to consider whether the amendments
+made to Sections 10, 14 and 16 of the Specific Relief Act, 1963 by the
+Specific Relief (Amendment) Act, 2018 -- which substituted the earlier
+discretionary regime with a mandatory entitlement to specific
+performance, subject to limited statutory exceptions -- applied to suits
+for specific performance filed, or agreements executed, before the
+amendment came into force on 1 October 2018.
+
+The Supreme Court held that the 2018 amendment is prospective in
+operation and does not apply retrospectively to agreements executed, or
+suits instituted, prior to its commencement. Suits concerning
+pre-amendment agreements continue to be governed by the unamended
+Sections 10, 14, 16 and 20 of the Act, under which specific performance
+remained a discretionary remedy that a court could refuse even where the
+plaintiff had otherwise made out a case, having regard to the conduct of
+the parties and the circumstances of the transaction. Only agreements
+executed on or after 1 October 2018 attract the amended regime, under
+which specific performance is, subject to Sections 11(2), 14 and 16, the
+rule rather than the exception.
+
+This case is the leading authority confirming that the fundamental shift
+made by the 2018 amendment -- from discretionary to (subject to limited
+exceptions) mandatory specific performance -- operates only prospectively,
+so that the applicable regime turns on the date of the underlying
+agreement, not the date of suit or decree.

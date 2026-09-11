@@ -1,0 +1,38 @@
+---
+case_name: "Gujarat Bottling Co Ltd v Coca Cola Co"
+citation: "(1995) 5 SCC 545"
+court: "supreme_court"
+year: 1995
+judges:
+  - "S.C. Agrawal J"
+  - "N.P. Singh J"
+source_url: "https://indiankanoon.org/doc/1934395-gbc/"
+---
+
+The dispute concerned a franchise agreement containing a negative
+covenant restraining the franchisee from manufacturing, dealing in or
+otherwise being connected with competing beverage products during the
+subsistence of the agreement. On termination of the franchise, the
+franchisor sought a temporary injunction to enforce the negative
+covenant restraining the franchisee from associating with a competing
+cola brand.
+
+The Supreme Court reiterated the settled principles governing the grant
+of temporary injunctions under Order XXXIX Rules 1 and 2 of the Code of
+Civil Procedure -- prima facie case, balance of convenience and
+irreparable injury -- and additionally considered the interplay between
+Section 27 of the Indian Contract Act, 1872 (which renders agreements in
+restraint of trade void) and Section 42 of the Specific Relief Act, 1963
+(which permits an injunction to enforce a negative agreement even where
+the affirmative part of the contract cannot be specifically enforced).
+The Court held that a negative covenant operative during the subsistence
+of a contract, and reasonably necessary for the protection of the
+covenantee's interests, is not void under Section 27, and that in
+considering whether to grant an interim injunction to enforce such a
+covenant the court must additionally weigh the public interest in free
+trade and competition alongside the ordinary three-fold test.
+
+Gujarat Bottling Co is a leading authority applying the prima
+facie/balance of convenience/irreparable injury framework of Order XXXIX
+in the specific context of negative covenants and injunctions under
+Section 42 of the Specific Relief Act.

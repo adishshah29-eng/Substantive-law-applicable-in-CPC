@@ -1,0 +1,36 @@
+---
+case_name: "Central Inland Water Transport Corporation v Brojo Nath Ganguly"
+citation: "(1986) 3 SCC 156"
+court: "supreme_court"
+year: 1986
+judges:
+  - "Madon J"
+  - "Venkataramiah J"
+source_url: "https://indiankanoon.org/doc/632412/"
+---
+
+A government-owned corporation's service rules contained a clause
+permitting termination of a permanent employee's service without
+assigning any reason, on three months' notice or pay in lieu, at the
+sole discretion of management. Employees terminated under this clause
+challenged it as void.
+
+The Supreme Court held that an unfair and unreasonable clause in a
+contract entered into between parties of grossly unequal bargaining
+power -- where one party has no meaningful choice but to accept the
+terms dictated by the other -- can be struck down as opposed to public
+policy under Section 23 of the Indian Contract Act, 1872, even where no
+recognised head of public policy squarely covers the case. The Court held
+that Indian courts have the same wide jurisdiction as English courts to
+declare a contract or a term of a contract to be void as against public
+policy, and that this jurisdiction is not confined to the narrow, closed
+categories historically recognised. Since the impugned service rule gave
+the employer an unrestrained power to terminate a permanent employee's
+services arbitrarily, without any reason and without a hearing, it was
+held unconscionable and unreasonable and therefore void under Section 23.
+
+The judgment established that gross inequality of bargaining power,
+combined with a term that is unreasonable and unfair to the weaker party,
+can itself render that term void as opposed to public policy under
+Section 23 of the Contract Act, independent of any statutory or
+constitutional infirmity.

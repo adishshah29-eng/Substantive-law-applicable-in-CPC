@@ -1,0 +1,36 @@
+---
+case_name: "Mohd. Yusuf v Faij Mohammad"
+citation: "(2009) 1 SCC 627"
+court: "supreme_court"
+year: 2008
+judges:
+  - "Tarun Chatterjee J"
+  - "Harjit Singh Bedi J"
+source_url: "https://indiankanoon.org/doc/1888822-myfm/"
+---
+
+The defendant failed to file a written statement within the time
+permitted by the trial court under Order VIII Rule 1 of the Code of
+Civil Procedure, 1908. The trial court, invoking Order VIII Rule 10,
+proceeded to pronounce judgment against the defendant without further
+opportunity, treating the consequence as automatic once the time expired.
+
+The Supreme Court held that Order VIII Rule 10, which provides that
+where a party fails to present a written statement within the time
+permitted "the Court shall pronounce judgment against him, or make such
+order in relation to the suit as it thinks fit," confers a discretion on
+the court as to the appropriate course of action, and does not make
+pronouncement of judgment against the defaulting defendant automatic or
+inevitable merely upon expiry of the time fixed. The word "shall" in
+Rule 10 must be read together with the alternative "or make such other
+order in relation to the suit as it thinks fit," which shows that the
+court retains discretion to grant further time or pass any other
+appropriate order, having regard to the facts and circumstances,
+rather than being compelled in every case to straightaway decree the
+suit against a defendant who has defaulted in filing a written
+statement.
+
+Mohd. Yusuf v Faij Mohammad is cited for the proposition that Order VIII
+Rule 10 CPC confers a discretion on the court as to the consequence of a
+defendant's failure to file a written statement in time, and does not
+mandate an automatic decree against the defaulting defendant.
