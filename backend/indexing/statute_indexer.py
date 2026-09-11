@@ -10,6 +10,7 @@ Builds the two statute indices used by hybrid retrieval:
 from __future__ import annotations
 
 import pickle
+import re
 from pathlib import Path
 
 import chromadb
@@ -18,11 +19,49 @@ from rank_bm25 import BM25Okapi
 from backend.indexing.embeddings import embed
 from backend.models.schemas import SourceChunk
 
-BM25_STOPWORD_FREE_TOKENIZER = None  # simple whitespace tokenizer is used below
+_TOKEN_RE = re.compile(r"[a-z0-9]+")
+_ORDER_RULE_RE = re.compile(r"order\s+([ivxlcdm]+)\s*,?\s*rule\s+(\d+[a-z]?)", re.I)
+_SECTION_RE = re.compile(r"section\s+(\d+[a-z]?)", re.I)
 
 
 def _tokenize(text: str) -> list[str]:
-    return text.lower().split()
+    return _TOKEN_RE.findall(text.lower())
+
+
+def statute_entity_matches(query: str, metadata: list[dict]) -> list[int]:
+    """Return indices of chunks whose order/rule or section exactly matches
+    an explicit statutory reference named in the query (e.g. "Order XXXIX
+    Rule 1" or "Section 11"). Plain BM25 term-frequency scoring alone can
+    rank a short, unrelated chunk above the correct provision purely from
+    document-length normalization, so an explicit citation in the query is
+    resolved via this exact-match entity lookup first (per VERITAS_SPEC.md
+    Part 1.4, item 3: "statute retrieval needs section-level exact-match
+    keys").
+    """
+    query_lower = query.lower()
+
+    order_rule = _ORDER_RULE_RE.search(query_lower)
+    if order_rule:
+        order, rule = order_rule.group(1).upper(), order_rule.group(2).lower()
+        matches = [
+            i
+            for i, m in enumerate(metadata)
+            if str(m.get("order_number", "")).upper() == order
+            and str(m.get("rule_number", "")).lower() == rule
+        ]
+        if matches:
+            return matches
+
+    section = _SECTION_RE.search(query_lower)
+    if section:
+        sec = section.group(1).lower()
+        return [
+            i
+            for i, m in enumerate(metadata)
+            if str(m.get("section_number", "")).lower() == sec
+        ]
+
+    return []
 
 
 def _chunk_metadata(chunk: SourceChunk) -> dict:
@@ -45,7 +84,10 @@ def build_bm25_index(chunks: list[SourceChunk], out_path: Path) -> None:
 
 def build_chroma_index(chunks: list[SourceChunk], persist_dir: Path, collection_name: str = "statutes") -> None:
     persist_dir.mkdir(parents=True, exist_ok=True)
-    client = chromadb.PersistentClient(path=str(persist_dir))
+    client = chromadb.PersistentClient(
+        path=str(persist_dir),
+        settings=chromadb.Settings(anonymized_telemetry=False),
+    )
     try:
         client.delete_collection(collection_name)
     except Exception:

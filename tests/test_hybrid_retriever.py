@@ -12,6 +12,7 @@ import pytest
 from rank_bm25 import BM25Okapi
 
 from backend.indexing.embeddings import embed
+from backend.indexing.statute_indexer import _tokenize, statute_entity_matches
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 INDICES_DIR = REPO_ROOT / "data" / "indices"
@@ -35,8 +36,16 @@ def bm25_search(query: str, top_k: int = 5):
     metadata = data["metadata"]
     texts = data["texts"]
 
-    scores = bm25.get_scores(query.lower().split())
-    ranked = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_k]
+    scores = bm25.get_scores(_tokenize(query))
+    ranked_by_score = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)
+
+    # An explicit "Order X Rule Y" / "Section N" citation in the query is
+    # resolved by exact metadata match first; BM25's document-length
+    # normalization can otherwise rank a short, unrelated chunk above the
+    # correct (often longer) provision. See statute_entity_matches().
+    entity_hits = statute_entity_matches(query, metadata)
+    ranked = entity_hits + [i for i in ranked_by_score if i not in entity_hits]
+    ranked = ranked[:top_k]
     return [(metadata[i], texts[i], scores[i]) for i in ranked]
 
 
