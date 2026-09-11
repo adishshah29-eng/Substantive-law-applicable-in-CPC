@@ -1,0 +1,68 @@
+[
+  {
+    "order": "IV",
+    "rule": "1",
+    "title": "Suit to be commenced by plaint",
+    "description": "(1) Every suit shall be instituted by the presentation of a plaint or in such other manner as may be prescribed.\n\n(2) Every plaint shall comply with the rules contained in Orders VI and VII, so far as they are applicable."
+  },
+  {
+    "order": "VI",
+    "rule": "1",
+    "title": "Pleading",
+    "description": "\"Pleading\" shall mean plaint or written statement."
+  },
+  {
+    "order": "VI",
+    "rule": "17",
+    "title": "Amendment of pleadings",
+    "description": "The Court may at any stage of the proceedings allow either party to alter or amend his pleadings in such manner and on such terms as may be just, and all such amendments shall be made as may be necessary for the purpose of determining the real questions in controversy between the parties:\n\nProvided that no application for amendment shall be allowed after the trial has commenced, unless the Court comes to the conclusion that in spite of due diligence, the party could not have raised the matter before the commencement of trial."
+  },
+  {
+    "order": "VII",
+    "rule": "1",
+    "title": "Particulars to be contained in plaint",
+    "description": "The plaint shall contain the following particulars:\n(a) the name of the Court in which the suit is brought;\n(b) the name, description and place of residence of the plaintiff;\n(c) the name, description and place of residence of the defendant, so far as they can be ascertained;\n(d) where the plaintiff or the defendant is a minor or a person of unsound mind, a statement to that effect;\n(e) the facts constituting the cause of action and when it arose;\n(f) the facts showing that the Court has jurisdiction;\n(g) the relief which the plaintiff claims;\n(h) where the plaintiff has allowed a set-off or relinquished a portion of his claim, the amount so allowed or relinquished; and\n(i) a statement of the value of the subject-matter of the suit for the purposes of jurisdiction and of court-fees, so far as the case admits."
+  },
+  {
+    "order": "VII",
+    "rule": "11",
+    "title": "Rejection of plaint",
+    "description": "The plaint shall be rejected in the following cases:--\n(a) where it does not disclose a cause of action;\n(b) where the relief claimed is undervalued, and the plaintiff, on being required by the Court to correct the valuation within a time to be fixed by the Court, fails to do so;\n(c) where the relief claimed is properly valued, but the plaint is written upon paper insufficiently stamped, and the plaintiff, on being required by the Court to supply the requisite stamp-paper within a time to be fixed by the Court, fails to do so;\n(d) where the suit appears from the statement in the plaint to be barred by any law;\n(e) where it is not filed in duplicate;\n(f) where the plaintiff fails to comply with the provisions of rule 9:\n\nProvided that the time fixed by the Court for the correction of the valuation or supplying of the requisite stamp-paper shall not be extended unless the Court, for reasons to be recorded, is satisfied that the plaintiff was prevented by any cause of an exceptional nature from correcting the valuation or supplying the requisite stamp-paper, as the case may be, within the time fixed by the Court and that refusal to extend such time would cause grave injustice to the plaintiff."
+  },
+  {
+    "order": "VIII",
+    "rule": "1",
+    "title": "Written statement",
+    "description": "The defendant shall, within thirty days from the date of service of summons on him, present a written statement of his defence:\n\nProvided that where the defendant fails to file the written statement within the said period of thirty days, he shall be allowed to file the same on such other day, as may be specified by the Court, for reasons to be recorded in writing, but which shall not be later than ninety days from the date of service of summons."
+  },
+  {
+    "order": "VIII",
+    "rule": "10",
+    "title": "Procedure when party fails to present written statement called for by Court",
+    "description": "Where any party from whom a written statement is required under rule 1 or rule 9 fails to present the same within the time permitted or fixed by the Court, as the case may be, the Court shall pronounce judgment against him, or make such order in relation to the suit as it thinks fit and on the pronouncement of such judgment a decree shall be drawn up."
+  },
+  {
+    "order": "XXXIX",
+    "rule": "1",
+    "title": "Cases in which temporary injunction may be granted",
+    "description": "Where in any suit it is proved by affidavit or otherwise--\n(a) that any property in dispute in a suit is in danger of being wasted, damaged or alienated by any party to the suit, or wrongfully sold in execution of a decree, or\n(b) that the defendant threatens, or intends, to remove or dispose of his property with a view to defrauding his creditors,\n(c) that the defendant threatens to dispossess the plaintiff or otherwise cause injury to the plaintiff in relation to any property in dispute in the suit,\nthe Court may by order grant a temporary injunction to restrain such act, or make such other order for the purpose of staying and preventing the wasting, damaging, alienation, sale, removal or disposition of the property or dispossession of the plaintiff, or otherwise causing injury to the plaintiff in relation to any property in dispute in the suit as the Court thinks fit, until the disposal of the suit or until further orders."
+  },
+  {
+    "order": "XXXIX",
+    "rule": "2",
+    "title": "Injunction to restrain repetition or continuance of breach",
+    "description": "(1) In any suit for restraining the defendant from committing a breach of contract or other injury of any kind, whether compensation is claimed in the suit or not, the plaintiff may, at any time after the commencement of the suit, and either before or after judgment, apply to the Court for a temporary injunction to restrain the defendant from committing the breach of contract or injury complained of, or any breach of contract or injury of a like kind arising out of the same contract or relating to the same property or right.\n\n(2) The Court may by order grant such injunction, on such terms as to the duration of the injunction, keeping of accounts, giving security, or otherwise, as the Court thinks fit."
+  },
+  {
+    "order": "XXXIX",
+    "rule": "3",
+    "title": "Before granting injunction, Court to direct notice to opposite party",
+    "description": "The Court shall in all cases, except where it appears that the object of granting the injunction would be defeated by the delay, before granting an injunction, direct notice of the application for the same to be given to the opposite party:\n\nProvided that, where it is proposed to grant an injunction without giving notice of the application to the opposite party, the Court shall record the reasons for its opinion that the object of granting the injunction would be defeated by delay, and require the applicant--\n(a) to deliver to the opposite party, or to send to him by registered post, immediately after the order granting the injunction has been made, a copy of the application for injunction together with--\n(i) a copy of the affidavit filed in support of the application;\n(ii) a copy of the plaint; and\n(iii) copies of documents on which the applicant relies, and\n(b) to file, on the day on which such injunction is granted or on the day immediately following that day, an affidavit stating that the copies aforesaid have been so delivered or sent."
+  },
+  {
+    "order": "XXXIX",
+    "rule": "4",
+    "title": "Order for injunction may be discharged, varied or set aside",
+    "description": "Any order for an injunction may be discharged, or varied, or set aside by the Court, on application made thereto by any party dissatisfied with such order:\n\nProvided that if in an application for temporary injunction or in any affidavit supporting such application, a party has knowingly made a false or misleading statement in relation to a material particular and the injunction was granted without giving notice to the opposite party, the Court shall vacate the injunction unless, for reasons to be recorded, it considers that it is not necessary so to do in the interests of justice."
+  }
+]
