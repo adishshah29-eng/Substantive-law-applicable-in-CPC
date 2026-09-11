@@ -13,8 +13,10 @@ import re
 from backend.models.schemas import Citation, CourtLevel
 
 # A party name: starts with a capital letter, allows the usual punctuation
-# found in Indian case names (initials, "&", "Pvt Ltd", possessives, hyphens).
-_PARTY = r"[A-Z][A-Za-z0-9.&'’\-, ]*?"
+# found in Indian case names (initials, "&", "Pvt Ltd", possessives, hyphens),
+# and \s rather than a literal space so a PDF-extracted line wrap inside a
+# party name (e.g. "ABC Developers\nPvt Ltd") doesn't break the match.
+_PARTY = r"[A-Z][A-Za-z0-9.&'’\-,\s]*?"
 _CASE_NAME_RE = re.compile(
     rf"(?P<case_name>{_PARTY}\s+v\.?s?\.?\s+{_PARTY})\s*,?\s*$"
 )
@@ -112,9 +114,14 @@ def extract_citations(text: str) -> list[Citation]:
             seen_spans.add(span)
 
             groupdict = match.groupdict()
+            # char_start/char_end must stay accurate against the original
+            # text for UI highlighting, but raw_text is for display, so its
+            # whitespace (e.g. a PDF line wrap inside a party name) is
+            # normalized to a single space.
+            raw_text = re.sub(r"\s+", " ", text[span_start:citation_end]).strip()
             citations.append(
                 Citation(
-                    raw_text=text[span_start:citation_end].strip(),
+                    raw_text=raw_text,
                     case_name=case_name,
                     reporter=groupdict.get("reporter"),
                     volume=groupdict.get("volume"),

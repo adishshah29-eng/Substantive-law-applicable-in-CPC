@@ -15,15 +15,29 @@ from __future__ import annotations
 
 import json
 import os
+import re
+import time
 from typing import Any
 
 from dotenv import load_dotenv
 from google import genai
-from google.genai import types
+from google.genai import errors, types
 
 load_dotenv()
 
 DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
+
+# The free tier enforces a requests-per-minute cap (429 RESOURCE_EXHAUSTED);
+# retry a couple of times using the server's own suggested delay rather
+# than failing the whole pipeline run over a transient rate limit.
+MAX_RATE_LIMIT_RETRIES = 3
+DEFAULT_RETRY_DELAY_SECONDS = 20.0
+_RETRY_DELAY_RE = re.compile(r"'retryDelay':\s*'(\d+(?:\.\d+)?)s'")
+
+
+def _retry_delay_seconds(error: errors.ClientError) -> float:
+    match = _RETRY_DELAY_RE.search(str(error))
+    return float(match.group(1)) if match else DEFAULT_RETRY_DELAY_SECONDS
 
 _client: genai.Client | None = None
 
@@ -80,13 +94,21 @@ def call_structured(
     prompts.py, e.g. CLASSIFY_BATCH_TOOL["input_schema"]). Returns the
     parsed JSON response as a plain dict."""
     client = get_client()
-    response = client.models.generate_content(
-        model=model or DEFAULT_MODEL,
-        contents=user_prompt,
-        config=types.GenerateContentConfig(
-            system_instruction=system_prompt,
-            response_mime_type="application/json",
-            response_schema=to_gemini_schema(input_schema),
-        ),
+    config = types.GenerateContentConfig(
+        system_instruction=system_prompt,
+        response_mime_type="application/json",
+        response_schema=to_gemini_schema(input_schema),
     )
-    return json.loads(response.text)
+
+    for attempt in range(MAX_RATE_LIMIT_RETRIES + 1):
+        try:
+            response = client.models.generate_content(
+                model=model or DEFAULT_MODEL, contents=user_prompt, config=config
+            )
+            return json.loads(response.text)
+        except errors.ClientError as exc:
+            if exc.code != 429 or attempt == MAX_RATE_LIMIT_RETRIES:
+                raise
+            time.sleep(_retry_delay_seconds(exc))
+
+    raise AssertionError("unreachable")  # loop always returns or raises
