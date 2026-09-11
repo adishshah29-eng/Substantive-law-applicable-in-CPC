@@ -23,7 +23,7 @@ from google.genai import types
 
 load_dotenv()
 
-DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
+DEFAULT_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 _client: genai.Client | None = None
 
