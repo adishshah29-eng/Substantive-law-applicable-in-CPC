@@ -15,7 +15,7 @@ dependencies = [
     "rank-bm25==0.2.2",
     "chromadb==0.5.15",
     "sentence-transformers==3.2.1",
-    "anthropic==0.36.2",
+    "google-genai==2.23.0",
     "python-dotenv==1.0.1",
     "numpy==1.26.4",
     "rapidfuzz==3.10.0",
