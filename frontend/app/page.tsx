@@ -1,101 +1,145 @@
-import Image from "next/image";
+import Link from "next/link";
+import { CheckCircle2, ScrollText, ShieldCheck } from "lucide-react";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="bg-background text-foreground">
+      {/* Hero */}
+      <section className="border-b border-border">
+        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-sm border border-primary/20 bg-primary/5 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
+            <ShieldCheck className="h-3.5 w-3.5" />
+            Civil litigation verification engine
+          </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <h1 className="max-w-3xl font-serif text-4xl font-medium leading-[1.1] tracking-tight text-foreground sm:text-5xl md:text-6xl">
+            AI drafts. VERITAS verifies.
+            <br />
+            <span className="text-primary">The lawyer decides.</span>
+          </h1>
+
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
+            The only Indian-law verification engine that reads AI-generated legal
+            drafts and tells you what&rsquo;s real, what&rsquo;s overstated, and
+            what&rsquo;s fabricated.
+          </p>
+
+          <div className="mt-10">
+            <Link
+              href="/verify"
+              className={cn(
+                buttonVariants({ size: "lg" }),
+                "h-12 bg-accent px-8 text-base font-semibold text-accent-foreground hover:bg-accent/90"
+              )}
+            >
+              Verify a document
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+      </section>
+
+      {/* Proof */}
+      <section className="border-b border-border bg-card">
+        <div className="mx-auto max-w-5xl px-6 py-14">
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-3">
+            <Stat
+              value="Up to 33%"
+              label="Hallucination rate"
+              detail="Leading legal AI research tools, per Stanford RegLab"
+            />
+            <Stat
+              value="1,000+"
+              label="Fabricated citations catalogued"
+              detail="Court cases worldwide, and growing weekly"
+            />
+            <Stat
+              value="First"
+              label="CPC procedural coverage"
+              detail="Injunctions, pleadings, written statements, res judicata"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Solution overview */}
+      <section className="mx-auto max-w-5xl px-6 py-20">
+        <h2 className="font-serif text-2xl font-medium text-foreground sm:text-3xl">
+          One verdict per claim, traced to its source
+        </h2>
+        <p className="mt-3 max-w-2xl text-muted-foreground">
+          Upload a memo, plaint, or written statement. VERITAS classifies every
+          proposition, checks it against Indian statute and case law, and tells
+          you exactly what to fix before it goes anywhere near a partner.
+        </p>
+
+        <div className="mt-12 grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-3">
+          <Feature
+            icon={ScrollText}
+            title="Every claim classified"
+            body="Substantive propositions, CPC procedure, citations, and statutory references are separated automatically, so nothing gets verified against the wrong standard."
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+          <Feature
+            icon={ShieldCheck}
+            title="Sources, not opinions"
+            body="Verdicts reason only from the statute and judgment text retrieved for that claim. If the sources are silent, VERITAS says so instead of guessing."
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
+          <Feature
+            icon={CheckCircle2}
+            title="Nothing hidden"
+            body="Every flag links to the exact statutory provision or judgment excerpt it's based on, quoted verbatim, so you can check the work in seconds."
           />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="border-t border-border bg-primary">
+        <div className="mx-auto max-w-5xl px-6 py-14 text-center">
+          <h2 className="font-serif text-2xl font-medium text-primary-foreground sm:text-3xl">
+            Upload once. Get a verdict on every claim.
+          </h2>
+          <div className="mt-8">
+            <Link
+              href="/verify"
+              className={cn(
+                buttonVariants({ size: "lg" }),
+                "h-12 bg-accent px-8 text-base font-semibold text-accent-foreground hover:bg-accent/90"
+              )}
+            >
+              Verify a document
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function Stat({ value, label, detail }: { value: string; label: string; detail: string }) {
+  return (
+    <div>
+      <div className="font-serif text-3xl font-medium text-primary">{value}</div>
+      <div className="mt-1 text-sm font-semibold text-foreground">{label}</div>
+      <div className="mt-1 text-sm text-muted-foreground">{detail}</div>
+    </div>
+  );
+}
+
+function Feature({
+  icon: Icon,
+  title,
+  body,
+}: {
+  icon: React.ComponentType<{ className?: string }>;
+  title: string;
+  body: string;
+}) {
+  return (
+    <div>
+      <Icon className="h-6 w-6 text-accent" />
+      <h3 className="mt-4 font-semibold text-foreground">{title}</h3>
+      <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{body}</p>
     </div>
   );
 }

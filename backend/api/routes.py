@@ -24,10 +24,10 @@ UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 SUPPORTED_SUFFIXES = {".pdf", ".docx"}
 
 
-def _run_pipeline(job_id: str, file_path: Path) -> None:
+def _run_pipeline(job_id: str, file_path: Path, original_filename: str) -> None:
     set_job(JobStatus(job_id=job_id, status="processing", current_step="verifying", progress=0.1))
     try:
-        report = verify_document(file_path, job_id)
+        report = verify_document(file_path, job_id, original_filename=original_filename)
         set_job(JobStatus(job_id=job_id, status="completed", progress=1.0, report=report))
     except Exception as exc:
         set_job(JobStatus(job_id=job_id, status="failed", error=str(exc)))
@@ -37,7 +37,8 @@ def _run_pipeline(job_id: str, file_path: Path) -> None:
 
 @router.post("/verify")
 async def verify(background_tasks: BackgroundTasks, file: UploadFile = File(...)) -> dict:
-    suffix = Path(file.filename or "").suffix.lower()
+    original_filename = file.filename or "document"
+    suffix = Path(original_filename).suffix.lower()
     if suffix not in SUPPORTED_SUFFIXES:
         raise HTTPException(400, f"Unsupported file type {suffix!r}; expected .pdf or .docx")
 
@@ -47,7 +48,7 @@ async def verify(background_tasks: BackgroundTasks, file: UploadFile = File(...)
         shutil.copyfileobj(file.file, out)
 
     set_job(JobStatus(job_id=job_id, status="queued"))
-    background_tasks.add_task(_run_pipeline, job_id, dest)
+    background_tasks.add_task(_run_pipeline, job_id, dest, original_filename)
 
     return {"job_id": job_id, "status": "processing"}
 

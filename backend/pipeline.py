@@ -49,7 +49,7 @@ def route_and_retrieve(claim: ClassifiedClaim) -> list[RetrievalResult]:
     return route_statute(claim.sentence.text) + route_case(claim.sentence.text)
 
 
-def verify_document(file_path: str | Path, job_id: str) -> Report:
+def verify_document(file_path: str | Path, job_id: str, original_filename: str | None = None) -> Report:
     start = time.monotonic()
 
     paragraphs = parse_document(file_path)
@@ -71,7 +71,7 @@ def verify_document(file_path: str | Path, job_id: str) -> Report:
 
     return build_report(
         job_id=job_id,
-        filename=Path(file_path).name,
+        filename=original_filename or Path(file_path).name,
         claims=claims,
         verdicts=verdicts,
         citation_verdicts=citation_verdicts,
