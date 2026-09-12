@@ -1,0 +1,12 @@
+frontend/
+.venv/
+.git/
+docs/
+VERITAS_SPEC.md
+README.md
+.claude/
+tests/
+*.md
+data/indices/
+.env
+.env.example

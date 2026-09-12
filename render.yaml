@@ -1,0 +1,35 @@
+# Render Blueprint for VERITAS. In the Render dashboard: New -> Blueprint,
+# connect this repo, and Render will create both services below.
+#
+# The two service names below (veritas-backend / veritas-frontend)
+# determine each service's default URL: https://<name>.onrender.com.
+# NEXT_PUBLIC_API_URL and ALLOWED_ORIGINS are set to those default URLs.
+# If either name is already taken, Render appends a random suffix instead
+# -- check the URLs it actually assigns after the first deploy and update
+# these two values (and GEMINI_API_KEY) in the dashboard if they differ.
+# See DEPLOY.md for the full walkthrough.
+
+services:
+  - type: web
+    name: veritas-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: standard # needs >=2GB RAM for the bge-large-en-v1.5 embedding model; free/starter (512MB) will OOM
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false # set manually in the Render dashboard -- never commit this
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: ALLOWED_ORIGINS
+        value: https://veritas-frontend.onrender.com
+
+  - type: web
+    name: veritas-frontend
+    env: node
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm start
+    plan: free
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://veritas-backend.onrender.com
